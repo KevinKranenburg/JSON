@@ -128,7 +128,9 @@ let sorteerBoekObj = {
       "uitgave",
       "pagina's",
       "taal",
-      "EAN"
+      "EAN",
+      "onderwerp",
+      "uitgever"
     ]);
     for (let i = 0; i < data.length; i++) {
       let accent = false;
@@ -148,7 +150,9 @@ let sorteerBoekObj = {
           data[i].uitgave,
           data[i].paginas,
           data[i].taal,
-          data[i].ean
+          data[i].ean,
+          data[i].onderwerp,
+          data[i].uitgever
         ],
         accent
       );
